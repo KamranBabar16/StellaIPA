@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width">
+
+    <title>Stella (Personal Assistant)</title>
+
+    <link rel="stylesheet" href="assets/css/style.css">
+
+
+
+
+
+<link rel="stylesheet" type="text/css" href="1tabsassets/css/demo.css" />
+		<link rel="stylesheet" type="text/css" href="tabsassets/css/tabs.css" />
+		<link rel="stylesheet" type="text/css" href="tabsassets/css/tabstyles.css" />
+
+
+
+  </head>
+  
+<body>
+ 
+<script src='js/responsivevoice.js' ></script>
+
+<!-- Button Refresher Script -->
+<script>
+setInterval(function () {document.getElementById("myButtonId").click();}, 10000);
+</script>
+
+
+    <h1>Stella (Personal Assistant)</h1>
+    <p>Press the Mic & say your commands.</p>
+	<center>
+   
+
+
+
+<section>
+				<div class="tabs tabs-style-bar">
+					<nav>
+						<ul>
+							<li><a href="#section-bar-1" class="icon icon-home"><span>Home</span></a></li>
+							<li><a href="#section-bar-2" class="icon icon-box"><span>Archive</span></a></li>
+							<li><a href="#section-bar-3" class="icon icon-display"><span>Analytics</span></a></li>
+							<li><a href="#section-bar-4" class="icon icon-upload"><span>Upload</span></a></li>
+							<li><a href="#section-bar-5" class="icon icon-tools"><span>Settings</span></a></li>
+						</ul>
+					</nav>
+				</div><!-- /tabs -->
+			</section>
+
+
+
+
+
+    <img onclick="startDictation();" id="myButtonId" style="width:50px; height:50px;" src="assets/img/mic-outline.png" class="invert mic"></img>
+	</center>
+    
+
+        
+
+       <div class="paddiv">
+	     <p id="response" class="backboxp">Hi There!</p>
+        <p class="backboxp result">Commands...</p>
+       <p class="backboxp output">...diagnostic messages</p>
+    </div>
+
+
+<!--<div style='clear:both;height:40px;'></div>
+-->
+<center>
+<input style="padding:10px;width:90%;" id="transcript" type="" class="output" placeholder="Talk Here."></input>
+
+</center>
+	<div class="stuff">
+	<div class="box"></div></div>
+
+
+
+
+
+<!-- stuff -->
+  <span class="bet_time">
+   Developed by TahirASPIRE.
+  </span>
+
+
+
+<audio style="display:nane;" id="audio" src="piano.ogg" >
+    
+
+
+	
+	
+<script src="tabsassets/js/cbpFWTabs.js"></script>
+
+<script>
+			(function() {
+
+				[].slice.call( document.querySelectorAll( '.tabs' ) ).forEach( function( el ) {
+					new CBPFWTabs( el );
+				});
+
+			})();
+		</script>
+
+
+
+	<!--leftover code from June v2 -->
+<script src='js/responsivevoice.js'></script>
+  <script src='js/jquery.min.js'></script>
+<script src='js/jquery.simpleWeather.min.js'></script>
+ <script src="js/index.js"></script>
+
+
+</body>
+</html> 
+​
